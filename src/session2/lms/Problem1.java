@@ -1,8 +1,8 @@
-package session2;
+package session2.lms;
 
 import java.util.Scanner;
 
-public class Class1 {
+public class Problem1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhập số number1 : ");
