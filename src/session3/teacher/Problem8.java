@@ -68,12 +68,13 @@ public class Problem8 {
                 case 5:
                     int largestOddFactor = -1;
                     System.out.println("Ước số lẻ lớn nhất của " + n + ":");
-                    for (int i = 1; i <= n; i++) {
+                    for (int i = 1; i <= n/2; i++) {
                         if (n % i == 0 && i % 2 != 0) {
                             largestOddFactor = Math.max(largestOddFactor, i);
+
                         }
                     }
-                    if (largestOddFactor != -1) {
+                    if (largestOddFactor != -1 ) {
                         System.out.println(largestOddFactor);
                     } else {
                         System.out.println("Không có ước số lẻ của " + n);
